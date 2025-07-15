@@ -21,10 +21,10 @@ class MyStatelessWidget extends StatelessWidget {
         ),
         ElevatedButton(
           onPressed: onPressed,
-          child: Text("Klick mich"),
           style: ElevatedButton.styleFrom(
               foregroundColor: Colors.white,
               backgroundColor: const Color.fromARGB(255, 179, 1, 255)),
+          child: Text("Klick mich"),
         ),
       ],
     );

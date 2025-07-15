@@ -24,7 +24,7 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
       children: [
         Text(name),
         ElevatedButton(
-          onPressed: changeStrings(),
+          onPressed: changeStrings,
           child: Text(buttonName),
         ),
       ],
